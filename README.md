@@ -1,0 +1,1 @@
+The project is to replicate Google's homepage in order to practice basic HTML & CSS. The goal is not to make the page functions work, but solely to design the page and get a better understanding of HTML & CSS.

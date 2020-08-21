@@ -1,0 +1,140 @@
+body {
+    color: #222;
+    display: grid;
+    font-family:arial,sans-serif;
+    font-size:15px;
+    height: 100vh;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+nav ul {
+    text-align: end;
+}
+
+nav button {
+    background-color:#4285f4;
+    border:1px solid #4285f4;
+    color:#fff;
+    padding:0.5em;
+    border-radius:2px;
+}
+
+/* MAIN */
+
+main {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+main a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main > div {
+    padding: 0.5em;
+}
+
+main input {
+    font-size:16px;
+    padding:10px;
+    border-radius:20px;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    width:500px;
+    outline:none;
+}
+
+main button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    outline:none;
+}
+
+/* FOOTER */
+
+footer {
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top:1px solid #e4e4e4;
+    display: grid;
+    color: rgba(0,0,0,.54);
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    display: inline;
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+footer ul {
+    padding: 0.5em;
+}
+
+.footer-top {
+    padding: 1em;
+}
+
+.footer-bottom {
+    border-top:1px solid #e4e4e4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-bottom-right {
+    text-align: end;
+}
